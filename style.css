@@ -1,0 +1,78 @@
+.container {
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-image: url('images/Acer-tree.webp');
+  background-size: cover;
+  object-fit: cover;
+  background-position: center;
+  /* object-fit: cover; */
+  /* background-color: rgb(244, 148, 128); */
+  color: 257180;
+  padding: 10px;
+  text-align: center;
+}
+
+h1 {
+  font-family: Montserrat;
+  color: 198473e;
+}
+
+h2 {
+  font-family: Montserrat;
+  color: 198473e;
+  font-size: 20px;
+}
+
+h3 {
+  font-family: Montserrat;
+  font-weight: 200;
+}
+
+li {
+  display: inline;
+  justify-content: space-between;
+}
+ul {
+  padding: 0;
+}
+
+a {
+  color: 740938;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  width: 20px;
+  height: 20px;
+}
+
+a:hover {
+  color: #F95454;
+}
+
+#profile-pic {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  display: block;
+  margin: auto;
+  border: 1px solid black
+}
+
+.card {
+  background-color: rgb(240, 185, 185);
+  padding: 5px;
+  width: 600px;
+  margin: 20px auto;
+  border-radius: 3%;
+  border: 2px solid black;
+  box-shadow: 2px 2px 8px dark grey
+}
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
